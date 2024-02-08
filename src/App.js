@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, HashRouter } from 'react-router-dom';
 import Dasboard from './Components/Dasboard';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -14,7 +14,7 @@ import TableData from './Components/TableData';
 function App() {
   return (
     <Container fluid="xl" className='container-size'>
-      <Router>
+      <HashRouter basename="/">
         <Row>
           <Col sm={12}>
             <Topbar />
@@ -32,7 +32,7 @@ function App() {
             </Routes>
           </Col>
         </Row>
-      </Router>
+      </HashRouter>
     </Container>
   );
 }
