@@ -1,13 +1,171 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+.sidebar {
+  background-color: #f8f9fa !important;
+  height: 100vh !important;
+
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar .nav-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.sidebar .navbar {
+  height: 100%;
+  background-color: #f8f9fa !important;
+  padding: 0px;
+  margin: 0px;
+  display: block;
+}
+
+.sidebar .nav-link:hover {
+  color: #0056b3;
+}
+
+.container-size {
+  padding: 0px !important;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  max-width: 100% !important;
+}
+
+.card-struct {
+  color: rgba(0, 0, 0, 0.87);
+  width: 100%;
+  border: 0;
+  position: relative;
+  font-size: .875rem;
+  min-width: 0;
+  word-wrap: break-word;
+  background: #FFF;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  border-radius: 6px;
+  color: rgba(0, 0, 0, 0.87);
+  width: 100%;
+  border: 0;
+  display: flex;
+  border-top: 1px solid#eee;
+  background: #FFF;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  border-radius: 6px;
+}
+
+.text-heading {
+  color: #999;
+  margin: 0;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.dashboard-color {
+  background-color: #eee !important;
+}
+
+.car-div2-color {
+  background: linear-gradient(60deg, #66bb6a, #43a047) !important;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .14), 0 7px 10px -5px rgba(76, 175, 80, .4) !important;
+}
+
+.car-div3-color {
+  background: linear-gradient(60deg, #ef5350, #e53935) !important;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .14),
+    0 7px 10px -5px rgba(244, 67, 54, .4) !important
+}
+
+.car-div4-color {
+  background: linear-gradient(60deg, #26c6da, #00acc1) !important;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .14), 0 7px 10px -5px rgba(0, 172, 193, .4) !important;
+}
+
+.f-size {
+  color: #3C4858;
+  margin-top: 0px;
+  min-height: auto;
+  font-family: 'Roboto',
+    'Helvetica',
+    'Arial',
+    sans-serif;
+  font-weight: 300;
+  margin-bottom: 3px;
+  text-decoration: none;
+}
+
+.card-body {
+  display: inline;
+}
+
+.f-right {
+  float: right
+}
+
+.f-left {
+  float: left
+}
+
+.card-div {
+  float: left;
+  padding: 15px;
+  margin-top: -40px;
+  margin-right: 15px;
+  border-radius: 3px;
+  background-color: #999;
+  background: linear-gradient(60deg, #ffa726, #fb8c00);
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .14), 0 7px 10px -5px rgba(255, 152, 0, .4);
+}
+
+.p-icon {
+  width: 56px;
+  height: 56px;
+  overflow: unset;
+  font-size: 36px;
+  text-align: center;
+  line-height: 56px;
+  margin-bottom: 1px;
+  color: white;
+}
+
+.card-text {
+  color: #999 !important;
+  text-align: center !important;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.card-title-img {
+  color: #3C4858;
+  margin-top: 0.625rem;
+  min-height: auto;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 300;
+  margin-bottom: 0.75rem;
+  text-decoration: none;
+  text-align: center
+}
+
+.card-img {
+  height: 250px !important
+}
+
+.error {
+  position: absolute;
+  color: red;
+  font-size: 16px;
 }
