@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Neha93saini.github.io/Project/static/css/main.bf2f9701.css",
+    "main.js": "/Neha93saini.github.io/Project/static/js/main.d68b3570.js",
+    "static/js/592.7f72a991.chunk.js": "/Neha93saini.github.io/Project/static/js/592.7f72a991.chunk.js",
+    "static/media/building.png": "/Neha93saini.github.io/Project/static/media/building.ff3f5697b59e462f3338.png",
+    "static/media/castle.jpg": "/Neha93saini.github.io/Project/static/media/castle.fc6c16fd3e5a086a5adf.jpg",
+    "index.html": "/Neha93saini.github.io/Project/index.html",
+    "main.bf2f9701.css.map": "/Neha93saini.github.io/Project/static/css/main.bf2f9701.css.map",
+    "main.d68b3570.js.map": "/Neha93saini.github.io/Project/static/js/main.d68b3570.js.map",
+    "592.7f72a991.chunk.js.map": "/Neha93saini.github.io/Project/static/js/592.7f72a991.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf2f9701.css",
+    "static/js/main.d68b3570.js"
+  ]
+}
